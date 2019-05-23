@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/view_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="13dp"
+        android:background="@color/colorDarkLighterGrey">
+
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:layout_width="@dimen/ic_delete"
+            android:layout_height="@dimen/ic_delete"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padd_10"
+            android:src="@mipmap/ic_delete_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padd_10"
+            android:layout_toLeftOf="@id/delete_icon"
+            android:text="@string/delete"
+            android:textColor="#fff"
+            android:textSize="13dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/view_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:elevation="15dp"
+        android:background="@color/material_gray_500"
+        >
+
+        <FrameLayout
+            android:id="@+id/topPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <TextView
+
+                android:id="@+id/txtbeeritem"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_gravity="start"
+                android:maxLines="1"
+                android:textColor="@color/colorWhite"
+                android:textSize="17dp"
+                android:text="TextView" />
+
+            <ImageButton
+                android:id="@+id/imgBeerSelect"
+                android:background="@null"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end|center"
+                app:srcCompat="@drawable/ic_action_edit" />
+
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/bott"
+            android:layout_below="@+id/topPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:paddingLeft="8dp"
+                android:id="@+id/txtpromoprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="start"
+                android:maxLines="1"
+                android:textColor="@color/colorWhite"
+                android:textSize="12dp"
+                android:text="R 10" />
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#c68400</color>
+    <color name="colorAccent">#dd2c00</color>
+    <color name="colorPrimaryLight">#ffe54c</color>
+    <color name="colorPrimaryLightLight">#FFF59D</color>
+    <!--  <color name="colorPrimary">#3F51B5</color>
+      <color name="colorPrimaryDark">#303F9F</color>
+
+       <color name="colorPrimary">#ffb300</color>
+      <color name="colorPrimaryDark">#c68400</color>
+
+      <color name="colorAccent">#448AFF</color>
+       <color name="candidate_brown">#b5562a</color> e0e0e0
+      <color name="candidate_brown_dark">#802900</color>
+      -->
+
+    <!--Greycandidate -->
+    <color name="colorGreyLight">#e0e0e0</color>
+    <color name="colorDarkGrey">#1d1d1d</color>
+    <color name="colorDarkLighterGrey">#424242</color>
+
+
+    <color name="colorAccentSecondary">#512da8</color>
+
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="textColorPrimary">#3E3E3E</color>
+    <color name="textColorSecondary">#757575</color>
+
+
+    <!--candidate -->
+
+    <color name="candidate_brown">#ffb300</color>
+    <color name="candidate_brown_dark">#c68400</color>
+
+    <color name="material_deep_purple_50">#EDE7F6</color>
+    <color name="material_deep_purple_500">#673AB7</color>
+    <color name="material_deep_purple_700">#512DA8</color>
+
+    <color name="material_green_50">#E8F5E9</color>
+    <color name="material_green_500">#4CAF50</color>
+    <color name="material_green_700">#388E3C</color>
+    <color name="material_green_300">#AED581</color>
+
+    <color name="material_gray_300">#E0E0E0</color>
+    <color name="material_gray_500">#9e9e9e</color>
+
+    <color name="material_lime_a700">#AEEA00</color>
+    <color name="material_purple_a700">#AA00FF</color>
+    <color name="material_red_a200">#FF5252</color>
+
+
+
+
+    <color name="fui_errorColor">#DD2C00</color>
+    <color name="fui_linkColor">#4285F4</color>
+    <color name="fui_transparent">#00000000</color>
+
+    <color name="fui_buttonShadow">#64BEBEBE</color>
+    <color name="fui_bgEmail">#D0021B</color>
+    <color name="fui_bgFacebook">#3B5998</color>
+    <color name="fui_bgGoogle">#ffffff</color>
+    <color name="fui_bgPhone">#43C5A5</color>
+    <color name="fui_bgTwitter">#FF5BAAF4</color>
+
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+</resources>
